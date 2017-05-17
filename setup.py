@@ -32,7 +32,7 @@ setup(name                 = "cc-plugin-primavera",
         ],
     entry_points         = {
         'compliance_checker.suites': [
-            'gliderdac = cc_plugin_primavera.primavera:PrimCheck',
+            'primavera = cc_plugin_primavera.primavera:PrimCheck',
         ]
     }
 )
